@@ -25,6 +25,7 @@ ul {
 .navBars {
   position: fixed;
   width: 100%;
+  box-shadow: 2px 4px 9px rgba(56, 56, 56, 0.424);
 }
 
 .blackbar {
@@ -65,6 +66,12 @@ ul {
   font-weight: 500;
 }
 
+#ICTLogo a {
+  color: #EC5242;
+  padding: 10px;
+  border: 4px solid #EC5242;
+}
+
 .navLinks li a:hover {
   color: #006466;
 }
@@ -87,6 +94,10 @@ ul {
   justify-content: space-between;
 }
 
+.navBar .contaner i {
+  display: none;
+}
+
 .navBar .contaner img {
   height: 90px;
 }
@@ -98,8 +109,12 @@ ul {
   align-items: center;
 }
 
+.hreoContaner i {
+  display: none;
+}
+
 .hreoContaner .content {
-  margin-top: 126px;
+  margin-top: 400px;
   width: 75%;
   height: 75%;
 }
@@ -128,9 +143,13 @@ ul {
   color: #0b525b;
 }
 
+.date p {
+  font-weight: 400;
+}
+
 .mainPro {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   background-color: #272640;
   display: flex;
   flex-direction: column;
@@ -170,7 +189,6 @@ ul {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  transition: all 0.3s;
 }
 
 .programs li i {
@@ -189,6 +207,10 @@ ul {
   text-align: center;
   margin-left: 10px;
   color: #fff;
+}
+
+.button {
+  display: none;
 }
 
 .mainPro a {
@@ -242,7 +264,6 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  transition: all 0.3s;
 }
 
 .speakerInfo,
@@ -297,6 +318,7 @@ ul {
 
 .partener {
   width: 65%;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -313,4 +335,396 @@ ul {
 
 .partener li:hover {
   color: rgba(255, 255, 255, 0.801);
+}
+
+.underFootercontaner {
+  background-color: #D3D3D3;
+  display: flex;
+  justify-content: space-around;
+}
+
+.underFooter {
+  width: 60%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about .wrapper {
+  height: 100vh;
+  background-image: url('./imgs/homeBG.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .contaner {
+  width: 60%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about .contaner h1 {
+  text-align: center;
+  font-size: 5.6rem;
+  color: #006466;
+}
+
+.about .contaner h2 {
+  display: none;
+}
+
+.about .wordes {
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 2px 4px 6px rgba(134, 134, 134, 0.157);
+  padding: 1.3rem 2rem;
+}
+
+.about .contaner a {
+  margin-top: -47px;
+  color: #000;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+.logoWrapper,
+.seeBestWrapper {
+  width: 100%;
+  height: 50vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid rgba(153, 152, 152, 0.267);
+  border-bottom: 2px solid rgba(153, 152, 152, 0.267);
+}
+
+.logoConyaner,
+.seeBestContaner {
+  width: 40%;
+  height: 100%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoConyaner h1 {
+  font-weight: 400;
+}
+
+.logoConyaner hr,
+.seeBestContaner hr {
+  border: 1px solid #006466;
+  width: 50px;
+  margin: -50px 0;
+}
+
+.logoConyaner p {
+  text-align: center;
+}
+
+.logoConyaner div {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: #137785cc;
+  box-shadow: 4px 4px 4px rgba(163, 163, 163, 0.767);
+}
+
+.seeBestContaner h1 {
+  font-weight: 500;
+}
+
+.seeImgs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.seeim1 {
+  background-image: url('./imgs/see1.jpg');
+  object-fit: cover;
+  object-position: bottom;
+  height: 230px;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fade {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 4;
+  color: #fff;
+  background-color: #0393968a;
+}
+
+.seeim2 {
+  background-image: url('./imgs/see2.jpg');
+  object-fit: cover;
+  object-position: bottom;
+  height: 230px;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    /* width: 100vh; */
+    height: auto;
+    background-image: url('./imgs/homeBG.png');
+    overflow: hidden;
+  }
+
+  .hreoContaner {
+    width: 100%;
+    padding: 30px 30px 70px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .hreoContaner i {
+    display: block;
+    margin-bottom: 40px;
+    /* position: fixed; */
+  }
+
+
+  .hreoContaner .content {
+    margin-top:0;
+    width: 100%;
+  }
+
+  .hreoContaner .content h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #006466;
+  }
+
+  .hreoContaner .content h1 {
+    font-size: 2.6rem;
+    color: #006466;
+  }
+
+  .aboutP {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .date {
+    margin-top: 40px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0b525b;
+  }
+  
+  .date p {
+    font-weight: 400;
+  }
+
+  .navBars {
+    display: none;
+  }
+
+  .mainPro {
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .programs {
+    width: 100%;
+    height: 17rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .programs li {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.233);
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .programs li i {
+    color: #fff;
+  }
+  
+  .programs li:hover {
+    border: 3px solid #fff;
+  }
+  
+  .programs li h2 {
+    color: rgb(20, 181, 187);
+  }
+  
+  .programs li p {
+    font-size: 10px;
+    text-align: center;
+    margin-left: 10px;
+    color: #fff;
+  }
+  
+  .mainPro a {
+    display: none;
+  }
+
+  .button {
+    display: block;
+    font-size: 23px;
+    padding: 33px;
+    color: #fff;
+    background-color: #EC5242;
+    border: none;
+  }
+
+  .speakersContaner {
+    height: auto;
+    padding: 50px;
+    background-color: #e9e8e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .featuredTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .featuredTitle h1 {
+    color: #1B3A4B;
+    font-weight: 500;
+  }
+  
+  .featuredTitle hr {
+    border: 1px solid #4D194D;
+    width: 3rem;
+  }
+  
+  .speaker {
+    width: 100%;
+    height: 76%;
+  }
+  
+  .speaker ul {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.4rem 1.3rem;
+  }
+  
+  .speaker ul li {
+    background-color: #fff;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .speakerInfo,
+  .speakerInfo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .speakerInfo h2 {
+    color: #312244;
+  }
+  
+  .speakerInfo ul li {
+    font-weight: 500;
+  }
+  
+  .speakerInfo ul li:nth-child(1) {
+    color: #006466;
+    font-style: italic;
+    font-weight: 600;
+  }
+  
+.featurdSpeakerFooter {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #212F45;
+}
+
+  .partener {
+    width: auto;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .underFootercontaner {
+    display: none;
+  }
+  .about .wrapper .contaner {
+    width: 100%;
+  }
+  .about .wrapper .contaner h1 {
+    font-size: 40px;
+  }
+
+  .wordes {
+    width: 90%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .about .wrapper .contaner .p {
+    text-align: center;
+  }
+
+  .about .wrapper .contaner h2 {
+    display: block;
+    margin-bottom: -20px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #006466;
+  }
+
+  .logoWrapper {
+    height: auto;
+  }
+
+  .logoConyaner {
+    width: 100%;
+    height: auto;
+  }
+
 }

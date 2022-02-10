@@ -3,66 +3,90 @@ const speakersData = [
     name: "Ahmed helmy",
     img_source: "./imgs/speaker1.jpg",
     occupation: "dolor psumectetur adipisicing elit.",
-    inini:
-      "psum dolor sit amLorem, iet abore nostrum laudantium eaque suscipit cupiditate?",
+    description:
+      "psum dolor sit amLorem, iet ostrum laudantium eaque suscipit",
   },
   {
+    hidden: "hidden",
     name: "Mie Eaz El-deen",
     img_source: "./imgs/speaker2.jpg",
     occupation: "sit amet consectet dolor, r adipisi",
-    inini: "r sit amet consectetu elit. Laboium eaque suscipit cupiditate?",
+    description: "r sit amet consectetu elit. Laboium eaque suscipit cupiditate?",
   },
   {
     name: "Maged El-kedwani",
     img_source: "./imgs/speaker3.jpg",
     occupation: "ipsum dolor, sit ame adipisicing elit.",
-    inini: "ipsum dolcing elit. La laudantium eaque suscipit cupiditate?",
+    description: "ipsum dolcing elit. La laudantium eaque suscipit cupiditate?",
   },
   {
     name: "Ahmed Eez",
     img_source: "./imgs/speaker4.jpg",
     occupation: "L amet consectetur adipisicing elit.",
-    inini: "Lorem, ipsum dolor sium eaque suscipit cupiditate?",
+    description: "Lorem, ipsum dolor sium eaque suscipit cupiditate?",
   },
   {
     name: "Bioumi fouad",
     img_source: "./imgs/speaker5.jpg",
     occupation: "dolor, sit amepsum onsecteg elit.",
-    inini: "Lorem, ipsum dolor sitntium eaque suscipit cupiditate?",
+    description: "Lorem, ipsum dolor sitntium eaque suscipit cupiditate?",
   },
   {
     name: "Ahmed saad",
     img_source: "./imgs/speaker6.jpg",
     occupation: "lor, Lorem ipsum dosipisicing elit.",
-    inini: "psum dolor sit amet itue suscipit cupiditate?",
+    description: "psum dolor sit amet itue suscipit cupiditate?",
   },
 ];
 
 const ul_ = document.querySelector(".speaker ul");
 
-function speakerCreation(speaker) {
+function speakerCreation(speaker, index) {
   const liWithData = `
-        <li>
-            <div class="speakerImg ahmed"><img src="${speaker.img_source}" alt=""></div>
+        <li class=${index > 1 ? 'hidable' : ''}>
+            <div class="speakerImg"><img src="${speaker.img_source}" alt=""></div>
             <div class="speakerInfo">
             <h2>${speaker.name}</h2>
-            <ul>
-                <li>
+                <div>
                 <p>${speaker.occupation}</p>
-                </li>
-            <li>${speaker.inini}</li>
-            </ul>
+                </div>
+            <div><p>${speaker.description}</p></div>
             </div>
         </li>`;
   ul_.innerHTML += liWithData;
 }
 
-if (screen.width >= 768) {
+
   for (let i = 0; i < speakersData.length; i++) {
-    speakerCreation(speakersData[i]);
+    speakerCreation(speakersData[i],i);
   }
-} else {
-  for (let i = 0; i < 2; i++) {
-    speakerCreation(speakersData[i]);
-  }
-}
+
+const speakerButton = document.querySelector('.speakerbutton');
+
+const list = document.querySelector('.speakersList');
+
+speakerButton.addEventListener('click', () =>{
+  list.classList.toggle('expand');
+})
+
+const menuIconDiv = document.querySelector('.menu');
+const menuIcon = document.querySelector('.menu i');
+const menu = document.querySelector('.menu_contaner');
+const xIcon = document.getElementById('iconX');
+const menuLinks = document.querySelectorAll('.options li a');
+
+[menuIcon, xIcon].forEach((e) => {
+  e.addEventListener('click', () => {
+    menu.classList.toggle('d-none');
+    menu.classList.toggle('d-flex');
+    menuIconDiv.classList.toggle('d-none');
+});
+});
+
+menuLinks.forEach((e) => {
+  e.addEventListener('click', () => {
+    menu.classList.toggle('d-none');
+    menu.classList.toggle('d-flex');
+    menuIconDiv.classList.toggle('d-none');
+});
+});

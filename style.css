@@ -76,7 +76,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: end;
-  background-color: #312244;
+  background-color: #272A31;
 }
 
 .blackbar .contaner {
@@ -163,19 +163,19 @@ ul {
 
 .hreoContaner .content h2 {
   font-size: 3rem;
-  color: #006466;
+  color: #EC5242;
 }
 
 .hreoContaner .content h1 {
   font-size: 5.6rem;
-  color: #006466;
+  color: #EC5242;
 }
 
 .aboutP {
   padding: 14px;
   width: 60%;
-  background-color: #fff;
-  border: 3px solid #00646678;
+  background-color: #f0efef;
+  border: 3px solid #fff;
 }
 
 .date {
@@ -192,7 +192,7 @@ ul {
 .mainPro {
   width: 100%;
   height: 100vh;
-  background-color: #272640;
+  background-color: #272A31;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -214,7 +214,7 @@ ul {
 .mainProTitle hr {
   width: 80px;
   margin-top: 10px;
-  border: 1px solid #065A60;
+  border: 1px solid #EC5242;
 }
 
 .programs {
@@ -242,8 +242,9 @@ ul {
 }
 
 .programs li h2 {
-  color: rgb(20, 181, 187);
+  color: #EC5242;
 }
+
 
 .programs li p {
   text-align: center;
@@ -276,12 +277,12 @@ ul {
 }
 
 .featuredTitle h1 {
-  color: #1B3A4B;
+  color: #000;
   font-weight: 500;
 }
 
 .featuredTitle hr {
-  border: 1px solid #4D194D;
+  border: 1px solid #EC5242;
   width: 3rem;
 }
 
@@ -327,11 +328,6 @@ ul {
   font-weight: 500;
 }
 
-/* .speakerInfo ul:nth-child(1) {
-  color: #006466;
-  font-style: italic;
-  font-weight: 600;
-} */
 
 .featurdSpeakerFooter,
 .featurdSpeakerFooter_1 {
@@ -340,9 +336,8 @@ ul {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #212F45;
+  background-color: #272A31;
 }
-
 
 
 .featurdSpeakerFooter a,
@@ -381,7 +376,7 @@ ul {
 .featurdSpeakerFooter hr,
 .featurdSpeakerFooter_1 hr {
   width: 40px;
-  border: 1px solid #006466;
+  border: 1px solid #EC5242;
 }
 
 .partener li {
@@ -396,6 +391,16 @@ ul {
   background-color: #D3D3D3;
   display: flex;
   justify-content: space-around;
+}
+
+.newunderFooter {
+  background-color: #272A31;
+  display: flex;
+  justify-content: space-around;  
+}
+
+.newunderFooter .nextToLogoImg {
+  color: #fff;
 }
 
 .underFooter {
@@ -450,11 +455,12 @@ ul {
 .about .contaner h1 {
   text-align: center;
   font-size: 5.6rem;
-  color: #006466;
+  color: #EC5242;
 }
 
 .about .contaner h2 {
-  display: none;
+    color: #EC5242;
+    display: none;
 }
 
 .about .wordes {
@@ -502,7 +508,7 @@ ul {
 
 .logoConyaner hr,
 .seeBestContaner hr {
-  border: 1px solid #006466;
+  border: 1px solid #EC5242;
   width: 50px;
   margin: -50px 0;
 }
@@ -515,8 +521,8 @@ ul {
   width: 80%;
   display: flex;
   justify-content: center;
-  background-color: #137785cc;
-  box-shadow: 4px 4px 4px rgba(163, 163, 163, 0.767);
+  background-color: #fff;
+  border: 2px solid rgba(194, 194, 194, 0.411);
 }
 
 .seeBestContaner h1 {
@@ -551,7 +557,7 @@ ul {
   width: 100%;
   z-index: 4;
   color: #fff;
-  background-color: #0393968a;
+  background-color: #ec53427e;
 }
 
 .seeim2 {
@@ -609,12 +615,10 @@ ul {
   .hreoContaner .content h2 {
     font-size: 1.6rem;
     font-weight: 400;
-    color: #006466;
   }
 
   .hreoContaner .content h1 {
     font-size: 2.6rem;
-    color: #006466;
   }
 
   .aboutP {
@@ -628,7 +632,6 @@ ul {
     margin-top: 40px;
     font-size: 1.6rem;
     font-weight: bold;
-    color: #0b525b;
   }
 
 .about .contaner .nav_2 {
@@ -659,7 +662,6 @@ ul {
   
   .programs li {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.233);
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
     gap: 10px;
@@ -676,7 +678,6 @@ ul {
   }
   
   .programs li h2 {
-    color: rgb(20, 181, 187);
   }
   
   .programs li p {
@@ -715,13 +716,16 @@ ul {
   }
   
   .featuredTitle h1 {
-    color: #1B3A4B;
     font-weight: 500;
   }
   
   .featuredTitle hr {
-    border: 1px solid #4D194D;
+    border: 1px solid #EC5242;
     width: 3rem;
+  }
+
+  .speakerOccupation p {
+    color: #EC5242;
   }
   
   .speaker {
@@ -760,7 +764,6 @@ ul {
   }
   
   .speakerInfo ul li:nth-child(1) {
-    color: #006466;
     font-style: italic;
     font-weight: 600;
   }
@@ -797,7 +800,7 @@ ul {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #212F45;
+  background-color: #272A31;
 }
 
   .partener {
@@ -817,6 +820,8 @@ ul {
   .about .wrapper .contaner {
     width: 100%;
   }
+
+
   .about .wrapper .contaner h1 {
     font-size: 40px;
   }
@@ -836,7 +841,6 @@ ul {
     margin-bottom: -20px;
     font-size: 1.6rem;
     font-weight: 400;
-    color: #006466;
   }
 
   .logoWrapper, {
@@ -879,6 +883,10 @@ ul {
   align-items: center;
   justify-content: space-around;
   padding: 25px 10px 5px 10px;
+}
+
+.newunderFooter {
+  display:none;
 }
 
 .lastFooter img {

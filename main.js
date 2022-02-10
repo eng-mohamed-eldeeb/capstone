@@ -47,7 +47,7 @@ function speakerCreation(speaker, index) {
             <div class="speakerImg"><img src="${speaker.img_source}" alt=""></div>
             <div class="speakerInfo">
             <h2>${speaker.name}</h2>
-                <div>
+                <div class="speakerOccupation">
                 <p>${speaker.occupation}</p>
                 </div>
             <div><p>${speaker.description}</p></div>

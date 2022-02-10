@@ -56,7 +56,7 @@ function speakerCreation(speaker, index) {
   ull.innerHTML += liWithData;
 }
 
-for (let i = 0; i < speakersData.length; i + 1) {
+for (let i = 0; i < speakersData.length; i += 1) {
   speakerCreation(speakersData[i], i);
 }
 

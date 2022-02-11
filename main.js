@@ -2,40 +2,40 @@ const speakersData = [
   {
     name: 'Ahmed helmy',
     img_source: './imgs/speaker1.jpg',
-    occupation: 'dolor psumectetur adipisicing elit.',
+    occupation: 'dolor psumecteticing elit.',
     description:
-      'psum dolor sit amLorem, iet ostrum laudantium eaque suscipit',
+      'psum dolor sit amLm eaque suscipit',
   },
   {
     hidden: 'hidden',
     name: 'Mie Eaz El-deen',
     img_source: './imgs/speaker2.jpg',
-    occupation: 'sit amet consectet dolor, r adipisi',
-    description: 'r sit amet consectetu elit. Laboium eaque suscipit cupiditate?',
+    occupation: 'sit amet condolor, r adipisi',
+    description: 'r sit supiditate?',
   },
   {
     name: 'Maged El-kedwani',
     img_source: './imgs/speaker3.jpg',
-    occupation: 'ipsum dolor, sit ame adipisicing elit.',
-    description: 'ipsum dolcing elit. La laudantium eaque suscipit cupiditate?',
+    occupation: 'ipsum dolor, sit icing elit.',
+    description: 'ipsum dolcing elit. Lat cupiditate?',
   },
   {
     name: 'Ahmed Eez',
     img_source: './imgs/speaker4.jpg',
-    occupation: 'L amet consectetur adipisicing elit.',
-    description: 'Lorem, ipsum dolor sium eaque suscipit cupiditate?',
+    occupation: 'L amet consectg elit.',
+    description: 'Lorem, ipm eaque suscipit cupiditate?',
   },
   {
     name: 'Bioumi fouad',
     img_source: './imgs/speaker5.jpg',
-    occupation: 'dolor, sit amepsum onsecteg elit.',
-    description: 'Lorem, ipsum dolor sitntium eaque suscipit cupiditate?',
+    occupation: 'dolor, sit cteg elit.',
+    description: 'Lorem, ipsum duscipit cupiditate?',
   },
   {
     name: 'Ahmed saad',
     img_source: './imgs/speaker6.jpg',
-    occupation: 'lor, Lorem ipsum dosipisicing elit.',
-    description: 'psum dolor sit amet itue suscipit cupiditate?',
+    occupation: 'lor, Lorem ipsusicing elit.',
+    description: 'psum dolor upiditate?',
   },
 ];
 

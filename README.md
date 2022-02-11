@@ -1,12 +1,23 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # capstone project
- 
+
+
+> This web app is about the ICT event held yearly in cairo.
+
+> This site contans
+>- Home page that includs event programs, speakers, and partners.
+>- About page that includs event description and previous events.
+
 ![screenshot](./imgs/screen1.png)
 
 ![screenshot](./imgs/screen2.png)
 
 Additional description about the project and its features.
+
+## live demo
+
+- project: (https://eng-mohamed-eldeeb.github.io/capstone/)
 
 ## Built With
 

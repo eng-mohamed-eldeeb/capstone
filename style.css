@@ -165,6 +165,8 @@ ul {
 
 .speakerInfo h2 {
   color: #312244;
+  font-weight: 600;
+  font-size: 19px;
 }
 
 .programs li i {
@@ -341,7 +343,6 @@ ul {
 
 .speakersContaner {
   padding: 50px;
-  background-color: #e9e8e8;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -383,10 +384,7 @@ ul {
 }
 
 .speakerImg {
-  width: 40%;
-  height: 100%;
   padding-right: 18px;
-  overflow-y: hidden;
 }
 
 .fofo {
@@ -433,7 +431,7 @@ ul {
 }
 
 .about .wrapper {
-  height: 100vh;
+  height: 130vh;
   background-image: url('./imgs/homeBG.png');
   display: flex;
   align-items: center;
@@ -441,6 +439,7 @@ ul {
 }
 
 .about .contaner {
+  padding-top: 0;
   width: 100%;
   height: 90%;
   display: flex;
@@ -490,7 +489,7 @@ ul {
 .logoWrapper,
 .seeBestWrapper {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -682,7 +681,6 @@ ul {
 
   .speaker ul li {
     background-color: #fff;
-    overflow: scroll;
     flex-direction: row;
     align-items: center;
   }
@@ -693,6 +691,7 @@ ul {
 
   .speakerOccupation p {
     color: #ec5242;
+    font-style: italic;
   }
 
   .programs li p {
@@ -717,7 +716,6 @@ ul {
 
   .speakersContaner {
     padding: 50px;
-    background-color: #e9e8e8;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -752,6 +750,7 @@ ul {
   .speakerInfo ul {
     display: flex;
     flex-direction: column;
+    align-items: start;
     gap: 0;
   }
 

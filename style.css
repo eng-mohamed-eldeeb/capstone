@@ -152,6 +152,10 @@ ul {
   gap: 2.4rem 1.3rem;
 }
 
+.speakerOccupation p {
+  color: #ec5242;
+}
+
 .speakerInfo,
 .speakerInfo ul {
   display: flex;
@@ -188,7 +192,7 @@ ul {
 }
 
 .navLinks li a:hover {
-  color: #006466;
+  color: #ec5242;
 }
 
 .blackbar .contaner ul li a,
@@ -283,7 +287,7 @@ ul {
   margin-top: 40px;
   font-size: 2rem;
   font-weight: bold;
-  color: #0b525b;
+  color: #272a31d0;
 }
 
 .date p {
